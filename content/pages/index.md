@@ -74,6 +74,13 @@ sections:
         altText: Hugh Saturation
       - url: images/dianne-ameter.jpg
         altText: Dianne Ameter
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     spacing: 1
     columns: 4
     aspectRatio: auto
