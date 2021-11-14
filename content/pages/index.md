@@ -27,7 +27,7 @@ sections:
     columns: 4
     aspectRatio: auto
     imageSizePx: 300
-    showCaption: false
+    showCaption: true
     enableHover: false
     styles:
       self:
