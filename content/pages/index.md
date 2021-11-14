@@ -2,6 +2,57 @@
 title: Home
 layout: PageLayout
 sections:
+  - colors: colors-a
+    elementId: ''
+    title: Some photos
+    subtitle: Aren't they lovely photos?
+    images:
+      - url: images/hilary-ouse.jpg
+        altText: Hilary Ouse
+      - url: images/isabelle-parks.jpg
+        altText: Isabelle Parks
+      - url: images/hugh-saturation.jpg
+        altText: Hugh Saturation
+      - url: images/dianne-ameter.jpg
+        altText: Dianne Ameter
+    spacing: 1
+    columns: 4
+    aspectRatio: auto
+    imageSizePx: 120
+    showCaption: false
+    enableHover: true
+    styles:
+      self:
+        width: full
+        height: auto
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
+      title:
+        fontWeight: 700
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-2
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-12
+    type: MediaGallerySection
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-c
