@@ -128,6 +128,7 @@ sections:
           - pt-12
           - pb-12
           - pr-4
+          - pl-4
         alignItems: center
         justifyContent: center
       title:
