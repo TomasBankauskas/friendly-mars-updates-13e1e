@@ -17,7 +17,8 @@ module.exports = {
             fontFamily: {
                 body: themeStyle.fontBody,
                 headlines: themeStyle.fontHeadlines
-            }
+            },
+            padding: {}
         }
     },
     variants: {
