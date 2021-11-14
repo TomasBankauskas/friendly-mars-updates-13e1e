@@ -18,7 +18,14 @@ module.exports = {
                 body: themeStyle.fontBody,
                 headlines: themeStyle.fontHeadlines
             },
-            padding: {}
+            spacing: {
+                '1/1': '100%',
+                '2/3': '66.666%',
+                '3/2': '150%',
+                '3/4': '75%',
+                '4/3': '133.333%',
+                '9/16': '56.25%'
+            }
         }
     },
     variants: {
