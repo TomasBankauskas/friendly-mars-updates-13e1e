@@ -100,7 +100,7 @@ fields:
     max: 300
     step: 1
     unit: 'px'
-    default: 120
+    default: 300
   - type: boolean
     name: showCaption
     label: Show caption
