@@ -43,7 +43,7 @@ type Image = {
     caption: string;
 };
 
-export type MediaGallerySectionAltProps = BaseSectionComponentProps & {
+export type MediaGallerySectionProps = BaseSectionComponentProps & {
     title?: string;
     subtitle?: string;
     images?: Image[];
@@ -55,7 +55,7 @@ export type MediaGallerySectionAltProps = BaseSectionComponentProps & {
     enableHover: boolean;
 };
 
-export default function MediaGallerySectionAlt(props: MediaGallerySectionAltProps) {
+export default function MediaGallerySection(props: MediaGallerySectionProps) {
     const cssId = props.elementId || null;
     const sectionStyles = props.styles?.self;
     const colors = props.colors || 'colors-a';
@@ -94,7 +94,7 @@ export default function MediaGallerySectionAlt(props: MediaGallerySectionAltProp
     );
 }
 
-function MediaGalleryHeader(props: MediaGallerySectionAltProps) {
+function MediaGalleryHeader(props: MediaGallerySectionProps) {
     if (!props.title && !props.subtitle) {
         return null;
     }
@@ -131,7 +131,7 @@ function MediaGalleryImage({ image, enableHover, aspectRatio }: { image: Image; 
     );
 }
 
-function MediaGalleryImageGrid(props: MediaGallerySectionAltProps) {
+function MediaGalleryImageGrid(props: MediaGallerySectionProps) {
     const images = props.images || [];
     if (images.length === 0) {
         return null;
