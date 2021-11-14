@@ -147,8 +147,9 @@ sections:
         altText: Hugh Saturation
       - url: images/dianne-ameter.jpg
         altText: Dianne Ameter
-      - altText: lorem-ipsum
-        caption: lorem-ipsum
+      - url: images/hilary-ouse.jpg
+        altText: altText of the image
+        caption: Caption of the image
         elementId: ''
         styles:
           self:
