@@ -1,6 +1,6 @@
 type: object
 name: MediaGallerySection
-label: Media gallery section alt
+label: Media gallery section
 labelField: title
 extends:
   - Section
