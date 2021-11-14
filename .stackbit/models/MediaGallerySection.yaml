@@ -15,11 +15,11 @@ fields:
   - type: string
     name: title
     label: Title
-    default: Some photos
+    default: Our Customers
   - type: string
     name: subtitle
     label: Subtitle
-    default: Aren't they lovely photos?
+    default: Check out some of the brands that are already trusting us
   - type: list
     name: images
     label: Images
@@ -28,9 +28,21 @@ fields:
       models: [ImageBlock]
     default:
       - type: ImageBlock
-        url: https://loremflickr.com/cache/resized/65535_51377543930_d101570b6d_b_640_640_nofilter.jpg
-        altText: Cute Cat
-        caption: Look! It's a cat!
+        url: images/github.svg
+        altText: GitHub
+        caption: GitHub
+      - type: ImageBlock
+        url: images/netlify.svg
+        altText: Nelify logo
+        caption: Nelify
+      - type: ImageBlock
+        url: images/sticker-mule.svg
+        altText: Stickermule logo
+        caption: Stickermule
+      - type: ImageBlock
+        url: images/twilio.svg
+        altText: Twilio logo
+        caption: Twilio  
   - type: number
     name: spacing
     label: Spacing between images
