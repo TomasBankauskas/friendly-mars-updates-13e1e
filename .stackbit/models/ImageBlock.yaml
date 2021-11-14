@@ -10,7 +10,7 @@ fields:
     name: url
     label: Image
     description: The URL of the image
-    default: images/deafult-image.png
+    default: images/default-image.png
   - type: string
     name: altText
     label: Alt text
