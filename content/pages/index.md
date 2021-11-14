@@ -48,6 +48,7 @@ sections:
         padding:
           - pt-12
           - pb-12
+          - pr-4
         justifyContent: center
         borderRadius: none
         borderWidth: 0
