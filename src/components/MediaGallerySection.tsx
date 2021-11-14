@@ -85,7 +85,8 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
             data-sb-field-path={props.annotationPrefix}
         >
             <div className={classNames('flex', 'w-full', sectionStyles?.justifyContent ? mapStyles({ justifyContent: sectionStyles?.justifyContent }) : null)}>
-                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                <div className={classNames('flex', 'w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null, sectionStyles?.justifyContent ? mapStyles({ justifyContent: sectionStyles?.justifyContent }) : null)}>
+                    <div className="inline-block max-w-full">
                     <MediaGalleryHeader {...props} />
                     <MediaGalleryImageGrid {...props} />
                 </div>
