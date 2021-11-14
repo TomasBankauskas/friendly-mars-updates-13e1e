@@ -9,6 +9,7 @@ sections:
     images:
       - url: images/hilary-ouse.jpg
         altText: Hilary Ouse
+        caption: Hilary Ouse
       - url: images/isabelle-parks.jpg
         altText: Isabelle Parks
       - url: images/hugh-saturation.jpg
