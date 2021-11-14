@@ -189,7 +189,7 @@ sections:
         type: ImageBlock
     spacing: 1
     columns: '4'
-    aspectRatio: '1:1'
+    aspectRatio: '2:3'
     imageSizePx: 300
     showCaption: true
     enableHover: true
