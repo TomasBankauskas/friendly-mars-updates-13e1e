@@ -87,8 +87,9 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
             <div className={classNames('flex', 'w-full', sectionStyles?.justifyContent ? mapStyles({ justifyContent: sectionStyles?.justifyContent }) : null)}>
                 <div className={classNames('flex', 'w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null, sectionStyles?.justifyContent ? mapStyles({ justifyContent: sectionStyles?.justifyContent }) : null)}>
                     <div className="inline-block max-w-full">
-                    <MediaGalleryHeader {...props} />
-                    <MediaGalleryImageGrid {...props} />
+                        <MediaGalleryHeader {...props} />
+                        <MediaGalleryImageGrid {...props} />
+                    </div>
                 </div>
             </div>
         </div>
