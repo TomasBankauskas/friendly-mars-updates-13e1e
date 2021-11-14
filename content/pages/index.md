@@ -23,6 +23,13 @@ sections:
         url: images/twilio.svg
         altText: Twilio logo
         caption: Twilio
+      - altText: lorem-ipsum
+        caption: lorem-ipsum
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
     spacing: 1
     columns: 4
     aspectRatio: auto
