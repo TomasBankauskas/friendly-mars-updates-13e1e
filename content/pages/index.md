@@ -23,7 +23,7 @@ sections:
     enableHover: true
     styles:
       self:
-        width: wide
+        width: narrow
         height: auto
         margin:
           - mt-0
