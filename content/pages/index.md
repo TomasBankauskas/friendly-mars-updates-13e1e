@@ -17,7 +17,7 @@ sections:
         altText: Dianne Ameter
     spacing: 1
     columns: 4
-    aspectRatio: '2:3'
+    aspectRatio: auto
     imageSizePx: 120
     showCaption: false
     enableHover: true
