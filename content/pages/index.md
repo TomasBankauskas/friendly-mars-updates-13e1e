@@ -50,7 +50,7 @@ sections:
           - pb-12
           - pr-4
           - pl-4
-        justifyContent: center
+        justifyContent: flex-end
         borderRadius: none
         borderWidth: 0
         borderStyle: none
